@@ -10,7 +10,7 @@
     <parent>
         <groupId>org.matg0mes</groupId>
         <artifactId>quarkus-hexagonal</artifactId>
-        <version>${revision}</version>
+        <version>0.0.1</version>
     </parent>
 
     <modules>
