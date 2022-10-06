@@ -5,14 +5,6 @@
     <modelVersion>4.0.0</modelVersion>
     <artifactId>application-restful</artifactId>
     <packaging>jar</packaging>
-    <dependencies>
-        <dependency>
-            <groupId>org.matg0mes</groupId>
-            <artifactId>core</artifactId>
-            <version>0.0.1</version>
-            <scope>compile</scope>
-        </dependency>
-    </dependencies>
     <groupId>org.matg0mes</groupId>
 
     <parent>
@@ -20,4 +12,13 @@
         <artifactId>applications</artifactId>
         <version>${revision}</version>
     </parent>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.matg0mes</groupId>
+            <artifactId>core</artifactId>
+            <version>${revision}</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
 </project>
