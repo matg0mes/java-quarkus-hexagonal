@@ -1,6 +1,7 @@
 package org.matg0mes.core.pokemon.models;
 
 import lombok.*;
+import org.matg0mes.core.commons.PokemonType;
 
 import java.time.LocalDateTime;
 
